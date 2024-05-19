@@ -1,11 +1,6 @@
 import pytest
 from main import BooksCollector
 
-
-#@pytest.fixture
-#def collector():
-#    return BooksCollector()
-
 class TestBooksCollector:
 # тест № 1- добавление 2-х новых книг
     def test_add_new_book_add_two_books(self, collector):
