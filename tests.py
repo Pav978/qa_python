@@ -2,9 +2,9 @@ import pytest
 from main import BooksCollector
 
 
-@pytest.fixture
-def collector():
-    return BooksCollector()
+#@pytest.fixture
+#def collector():
+#    return BooksCollector()
 
 class TestBooksCollector:
 # тест № 1- добавление 2-х новых книг
